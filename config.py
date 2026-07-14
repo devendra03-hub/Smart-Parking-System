@@ -7,7 +7,7 @@ def get_db_connection():
         user="avnadmin",
         password=os.environ.get("DB_PASSWORD"),
         database="defaultdb",
-        port=17094,
+        port=17098,
         ssl_disabled=False
     )
     return connection
